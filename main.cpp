@@ -36,51 +36,51 @@ Sub Object 1: Steering Wheel
     Name 4 things you'll find on the:    Steering Wheel
         1) paddle shifters
         2) 'cruise control' controls
-        3) 
-        4) 
+        3) horn
+        4) stereo controls
     Name 2 things you can do with the:   Steering Wheel
         1) adjust cruise control settings.
-        2)
+        2) turn the car wheels
         
 Sub Object 2: Instrument Cluster
     Name 4 things you'll find on the:   Instrument Cluster
-        1)
-        2)
-        3)
-        4)
+        1) odometer
+        2) speedometer
+        3) fuel gauge
+        4) tachometer
     Name 3 things you can do with the:   Instrument Cluster
-        1)
-        2)
-        3)
+        1) monitor trip distance
+        2) monitor engine temperature
+        3) monitor fuel levels
     
 Sub Object 3: Environment Controls
     Name 3 things you'll find on the:    Environment Controls
-        1)
-        2)
-        3)
+        1) temperature setting
+        2) fan speed knob
+        3) defrost button
     Name 3 things you can do with the:   Environment Controls
-        1)
-        2)
-        3)
+        1) adjust indoor temperature
+        2) adjust direction of air conditioning
+        3) open and close the air vents
 
 Sub Object 4: Infotainment System
     Name 3 things you'll find on the:    Infotainment System
-        1)
-        2)
-        3)
+        1) visual display
+        2) stereo volume knob
+        3) auxillary cord jack
     Name 3 things you can do with the:   Infotainment System
-        1)
-        2)
-        3)
+        1) set stereo to connect to bluetooth
+        2) search phone's contacts
+        3) scan radio
 
 Sub Object 5: Seat 
     Name 3 things you'll find on the:    Seat
-        1)
-        2)
-        3)
+        1) height adjustment controls
+        2) seat warmer heat settings
+        3) recliner control
     Name 2 things you can do with the:   Seat
-        1)
-        2)
+        1) move toward the steering wheel
+        2) recline
 */
 /*
  MAKE SURE YOU ARE NOT ON THE MASTER BRANCH
