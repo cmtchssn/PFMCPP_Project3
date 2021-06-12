@@ -54,59 +54,59 @@ Thing: Car Wash
  */
 
 /*
-Thing 1)
+Thing 1) University
 5 properties:
-    1)
-    2)
-    3)
-    4)
-    5)
+    1) number of students enrolled
+    2) number of buildings on campus
+    3) number of dormitory rooms
+    4) amount of scholarship money given each semester
+    5) amount of graduates with jobs
 3 things it can do:
-    1)
-    2)
-    3)
+    1) enroll students in courses
+    2) provide meals to students
+    3) provide study spaces to students
  */
 
 /*
-Thing 2)
+Thing 2) Amusement Park
 5 properties:
-    1)
-    2)
-    3)
-    4)
-    5)
+    1) number of rollercoasters
+    2) number of restrooms
+    3) number of patrons each week
+    4) amount of electricity used each month
+    5) number of gift shops
 3 things it can do:
-    1)
-    2)
-    3)
+    1) optimize line wait times
+    2) take photos during rides
+    3) sell t-shirts to patrons
  */
 
 /*
-Thing 3)
+Thing 3) Donut Shop
 5 properties:
-    1)
-    2)
-    3)
-    4)
-    5)
+    1) number of donut varieties
+    2) number of donuts made each day
+    3) number of gallons of oil used each day
+    4) number of employees working each day
+    5) price of glazed donut
 3 things it can do:
-    1)
-    2)
-    3)
+    1) sell donuts
+    2) customize donut toppings
+    3) brew coffee
  */
 
 /*
-Thing 4)
+Thing 4) Bank
 5 properties:
-    1)
-    2)
-    3)
-    4)
-    5)
+    1) amount of money in safe each day
+    2) number of tellers each day
+    3) amount of interest in a savings account
+    4) number of local branches
+    5) overdraft free amount
 3 things it can do:
-    1)
-    2)
-    3)
+    1) lend money
+    2) offer credit cards
+    3) create retirement plans
  */
 
 
