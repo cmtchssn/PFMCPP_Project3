@@ -110,17 +110,17 @@ Thing 4) Bank
  */
 
 /*
-Thing 10)
+Thing 10) Laptop
 5 properties:
-    1)
-    2)
-    3)
-    4)
-    5)
+    1) Trackpad
+    2) Keyboard
+    3) Battery
+    4) Hard drive
+    5) RAM
 3 things it can do:
-    1)
-    2)
-    3)
+    1) Connect to the internet
+    2) Play audio
+    3) Fold closed
  */
 
 /*
