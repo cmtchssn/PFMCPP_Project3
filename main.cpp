@@ -125,73 +125,73 @@ Thing 4) Bank
  */
 
 /*
-Thing 5)
+Thing 5) Trackpad
 5 properties:
-    1)
-    2)
-    3)
-    4)
-    5)
+    1) left button click (bool)
+    2) number of fingers on trackpad
+    3) x position
+    4) y position
+    5) scroll mode (bool)
 3 things it can do:
-    1)
-    2)
-    3)
+    1) move cursor
+    2) highlight text
+    3) scroll vertically
  */
 
 /*
-Thing 6)
+Thing 6) Keyboard
 5 properties:
-    1)
-    2)
-    3)
-    4)
-    5)
+    1) language
+    2) backlight (bool)
+    3) 10-key (bool)
+    4) number of letter keys
+    5) insert mode (bool)
 3 things it can do:
-    1)
-    2)
-    3)
+    1) capitalize characters
+    2) control display brightness
+    3) lock number inputs
  */
 
 /*
-Thing 7)
+Thing 7) Battery
 5 properties:
-    1)
-    2)
-    3)
-    4)
-    5)
+    1) amount of charge percentage
+    2) amount of time until full charge
+    3) amount of time until recharge
+    4) amount of volts
+    5) charging current
 3 things it can do:
-    1)
-    2)
-    3)
+    1) supply laptop power
+    2) recharge
+    3) use electricity
  */
 
 /*
-Thing 8)
+Thing 8) Hard Drive
 5 properties:
-    1)
-    2)
-    3)
-    4)
-    5)
+    1) total amount of storage space
+    2) amount of storage space available
+    3) number of partitions
+    4) solid-state (bool)
+    5) data access speed
 3 things it can do:
-    1)
-    2)
-    3)
+    1) access data
+    2) write data
+    3) format data
  */
 
 /*
-Thing 9)
+Thing 9) RAM
 5 properties:
-    1)
-    2)
-    3)
-    4)
-    5)
+    1) access time
+    2) power requirement
+    3) amount of memory
+    4) speed
+    5) manufacturer
 3 things it can do:
-    1)
-    2)
-    3)
+    1) check cache
+    2) swap memory between hard drive
+    3) temporarily store files
  */
 
 /*
