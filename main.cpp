@@ -131,6 +131,27 @@ Thing 1) University
     3) provide study spaces to students
  */
 
+struct University
+{
+    //1) number of students enrolled
+    int numStudentsEnrolled = 10000;
+    //2) number of buildings on campus
+    int numBuildingsOnCampus = 60;
+    //3) number of dormitory rooms
+    int numbDormitoryRooms = 3500;
+    //4) amount of scholarship money given each semester
+    int amountScholarshipGivenEachSemester = 250000;
+    //5) amount of graduates with jobs
+    int amountGraduatesWithJobs = 5000;
+
+    //1) enroll students in courses
+    void enrollStudentsInCourses(int numStudentsEnrolled);
+    //2) provide meals to students
+    void provideMealsToStudents(int numStudentsEnrolled);
+    //3) provide study spaces to students
+    void provideStudentStudySpaces(int numStudentsEnrolled, int numBuildingsOnCampus);
+};
+
 /*
 Thing 2) Amusement Park
 5 properties:
@@ -144,6 +165,27 @@ Thing 2) Amusement Park
     2) take photos during rides
     3) sell t-shirts to patrons
  */
+
+struct AmusementPark
+{
+    //1) number of rollercoasters
+    int numRollercoasters = 14;
+    //2) number of restrooms
+    int numRestrooms = 20;
+    //3) number of patrons each week
+    int numWeeklyPatrons = 10000;
+    //4) amount of electricity used each month
+    float amountMonthlyElectricityUse = 115.5f;
+    //5) number of gift shops
+    int numGiftShops = 100;
+
+    //1) optimize line wait times
+    float optimizeLineWaitTime(int numRollercoasters, int numWeeklyPatrons);
+    //2) take photos during rides
+    bool takePhotoDuringRide();
+    //3) sell t-shirts to patrons
+    void sellShirts(int numWeeklyPatrons, int numGiftShops);
+};
 
 /*
 Thing 3) Donut Shop
