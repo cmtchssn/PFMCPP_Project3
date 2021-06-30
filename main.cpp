@@ -200,7 +200,26 @@ Thing 3) Donut Shop
     2) customize donut toppings
     3) brew coffee
  */
+struct DonutShop
+{
+    //1) number of donut varieties
+    int numDonutVarieties = 20;
+    //2) number of donuts made each day
+    int numDonutsMadeDaily = 1000;
+    //3) number of gallons of oil used each day
+    int numGallonsOilUsedDaily = 25;
+    //4) number of employees working each day
+    int numEmployeesWorkingDaily = 4;
+    //5) price of glazed donut
+    float priceGlazedDonut = 0.79f;
 
+    //1) sell donuts
+    void sellDonuts(float priceGlazedDonut);
+    //2) customize donut toppings
+    void customizeDonutToppings(int numDonutVarieties);
+    //3) brew coffee
+    void brewCoffee();
+};
 /*
 Thing 4) Bank
 5 properties:
@@ -214,7 +233,26 @@ Thing 4) Bank
     2) offer credit cards
     3) create retirement plans
  */
+struct Bank
+{
+    //1) amount of money in safe each day
+    float amountMoneyInSafeDaily = 1000000.0f;
+    //2) number of tellers each day
+    int numTellersWorkingDaily = 6;
+    //3) amount of interest in a savings account
+    float amountInterestSavingsAcct = 0.009f;
+    //4) number of local branches
+    int numLocalBranches = 3;
+    //5) overdraft fee amount
+    float overdraftFeeAmount = 35.0f;
 
+    //1) lend money
+    float lendMoney(float amountMoneyInSafeDaily, int numLocalBranches);
+    //2) offer credit cards
+    void offerCreditCards(int numTellersWorkingDaily, int numLocalBranches);
+    //3) create retirement plans
+    void createRetirementPlans(float amountInterestSavingsAcct);
+};
 /*
 Thing 5) Trackpad
 5 properties:
@@ -228,7 +266,26 @@ Thing 5) Trackpad
     2) highlight text
     3) scroll vertically
  */
+struct Trackpad
+{
+    //1) left button click (bool)
+    bool leftButtonClick = false;
+    //2) number of fingers on trackpad
+    int numFingersOnTrackpad = 0;
+    //3) x position
+    float xPos = 0.0f;
+    //4) y position
+    float yPos = 0.0f;
+    //5) scroll mode (bool)
+    bool scrollMode = false;
 
+    //1) move cursor
+    void moveCursor(int numFingersOnTrackpad, float xPos, float yPos);
+    //2) highlight text
+    void highlightText(bool leftButtonClick, bool scrollMode);
+    //3) scroll vertically
+    void scrollVertically(int numFingersOnTrackPad, float yPos, bool scrollMode);
+};
 /*
 Thing 6) Keyboard
 5 properties:
