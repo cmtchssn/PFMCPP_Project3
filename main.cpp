@@ -299,7 +299,26 @@ Thing 6) Keyboard
     2) control display brightness
     3) lock number inputs
  */
+struct Keyboard
+{
+    //1) language
+    char languageInput = 'E';
+    //2) backlight (bool)
+    bool backLight = true;
+    //3) 10-key (bool)
+    bool tenKey = false;
+    //4) number of letter keys
+    int numLetterKeys = 26;
+    //5) insert mode (bool)
+    bool insertMode = false;
 
+    //1) capitalize characters
+    bool capitalizeChars(int numLetterKeys);
+    //2) control display brightness
+    void controlDisplayBrightness(bool backLight);
+    //3) lock number inputs
+    bool lockNumberInputs(bool tenKey, int numLetterKeys, bool insertMode);
+};
 /*
 Thing 7) Battery
 5 properties:
@@ -313,7 +332,26 @@ Thing 7) Battery
     2) recharge
     3) use electricity
  */
-
+struct Battery
+{
+    //1) amount of charge percentage
+    int amountChargePercentage = 100;
+    //2) amount of time until full charge
+    int amountTimeUntilFullCharge = 800000;
+    //3) amount of time until recharge
+    int amountTimeUntilRecharge = 0;
+    //4) amount of volts
+    float amountVoltage = 14.8f;
+    //5) charging current
+    int chargingCurrent = 4500;
+    
+    //1) supply laptop power
+    void supplyLaptopPower(float amountVoltage, int chargingCurrent);
+    //2) recharge
+    void rechargeLaptop(int amountChargePercentage, int amountTimeUntilFullCharge, int amountTimeUntilRecharge);
+    //3) use electricity
+    void useElectricity(float amountVoltage, int chargingCurrent);
+};
 /*
 Thing 8) Hard Drive
 5 properties:
